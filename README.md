@@ -1,2 +1,9 @@
-# GLOBEA
-GLOBEA – Khám phá thế giới, kiến tạo hành trình của riêng bạn.  Không chỉ là một điểm đến, mỗi chuyến đi là một câu chuyện, một trải nghiệm và một dấu ấn riêng.
+GLOBEA — Khám phá thế giới theo cách của bạn
+
+Hướng dẫn chạy dự án
+
+Tải hoặc clone repository về máy.
+
+Mở thư mục mã nguồn.
+
+Mở index.html bằng trình duyệt hoặc sử dụng VS Code để Live Server.
