@@ -1,0 +1,912 @@
+{
+  "date": "2026-10-26T13:14:41.975Z",
+  "checks": [
+    {
+      "name": "index.html 1920px layout",
+      "pass": true,
+      "details": {
+        "width": 1905,
+        "scroll": 1905
+      }
+    },
+    {
+      "name": "index.html 1920px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "vietnam.html 1920px layout",
+      "pass": true,
+      "details": {
+        "width": 1905,
+        "scroll": 1905
+      }
+    },
+    {
+      "name": "vietnam.html 1920px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hoi-an.html 1920px layout",
+      "pass": true,
+      "details": {
+        "width": 1905,
+        "scroll": 1905
+      }
+    },
+    {
+      "name": "hoi-an.html 1920px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ha-noi.html 1920px layout",
+      "pass": true,
+      "details": {
+        "width": 1905,
+        "scroll": 1905
+      }
+    },
+    {
+      "name": "ha-noi.html 1920px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "da-lat.html 1920px layout",
+      "pass": true,
+      "details": {
+        "width": 1905,
+        "scroll": 1905
+      }
+    },
+    {
+      "name": "da-lat.html 1920px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ha-long.html 1920px layout",
+      "pass": true,
+      "details": {
+        "width": 1905,
+        "scroll": 1905
+      }
+    },
+    {
+      "name": "ha-long.html 1920px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ninh-binh.html 1920px layout",
+      "pass": true,
+      "details": {
+        "width": 1905,
+        "scroll": 1905
+      }
+    },
+    {
+      "name": "ninh-binh.html 1920px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hue.html 1920px layout",
+      "pass": true,
+      "details": {
+        "width": 1905,
+        "scroll": 1905
+      }
+    },
+    {
+      "name": "hue.html 1920px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ho-chi-minh.html 1920px layout",
+      "pass": true,
+      "details": {
+        "width": 1905,
+        "scroll": 1905
+      }
+    },
+    {
+      "name": "ho-chi-minh.html 1920px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "phu-quoc.html 1920px layout",
+      "pass": true,
+      "details": {
+        "width": 1905,
+        "scroll": 1905
+      }
+    },
+    {
+      "name": "phu-quoc.html 1920px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "nguon.html 1920px layout",
+      "pass": true,
+      "details": {
+        "width": 1905,
+        "scroll": 1905
+      }
+    },
+    {
+      "name": "nguon.html 1920px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "index.html 1440px layout",
+      "pass": true,
+      "details": {
+        "width": 1425,
+        "scroll": 1425
+      }
+    },
+    {
+      "name": "index.html 1440px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "index.html heading",
+      "pass": true,
+      "details": 1
+    },
+    {
+      "name": "vietnam.html 1440px layout",
+      "pass": true,
+      "details": {
+        "width": 1425,
+        "scroll": 1425
+      }
+    },
+    {
+      "name": "vietnam.html 1440px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "vietnam.html heading",
+      "pass": true,
+      "details": 1
+    },
+    {
+      "name": "hoi-an.html 1440px layout",
+      "pass": true,
+      "details": {
+        "width": 1425,
+        "scroll": 1425
+      }
+    },
+    {
+      "name": "hoi-an.html 1440px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hoi-an.html heading",
+      "pass": true,
+      "details": 1
+    },
+    {
+      "name": "ha-noi.html 1440px layout",
+      "pass": true,
+      "details": {
+        "width": 1425,
+        "scroll": 1425
+      }
+    },
+    {
+      "name": "ha-noi.html 1440px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ha-noi.html heading",
+      "pass": true,
+      "details": 1
+    },
+    {
+      "name": "da-lat.html 1440px layout",
+      "pass": true,
+      "details": {
+        "width": 1425,
+        "scroll": 1425
+      }
+    },
+    {
+      "name": "da-lat.html 1440px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "da-lat.html heading",
+      "pass": true,
+      "details": 1
+    },
+    {
+      "name": "ha-long.html 1440px layout",
+      "pass": true,
+      "details": {
+        "width": 1425,
+        "scroll": 1425
+      }
+    },
+    {
+      "name": "ha-long.html 1440px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ha-long.html heading",
+      "pass": true,
+      "details": 1
+    },
+    {
+      "name": "ninh-binh.html 1440px layout",
+      "pass": true,
+      "details": {
+        "width": 1425,
+        "scroll": 1425
+      }
+    },
+    {
+      "name": "ninh-binh.html 1440px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ninh-binh.html heading",
+      "pass": true,
+      "details": 1
+    },
+    {
+      "name": "hue.html 1440px layout",
+      "pass": true,
+      "details": {
+        "width": 1425,
+        "scroll": 1425
+      }
+    },
+    {
+      "name": "hue.html 1440px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hue.html heading",
+      "pass": true,
+      "details": 1
+    },
+    {
+      "name": "ho-chi-minh.html 1440px layout",
+      "pass": true,
+      "details": {
+        "width": 1425,
+        "scroll": 1425
+      }
+    },
+    {
+      "name": "ho-chi-minh.html 1440px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ho-chi-minh.html heading",
+      "pass": true,
+      "details": 1
+    },
+    {
+      "name": "phu-quoc.html 1440px layout",
+      "pass": true,
+      "details": {
+        "width": 1425,
+        "scroll": 1425
+      }
+    },
+    {
+      "name": "phu-quoc.html 1440px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "phu-quoc.html heading",
+      "pass": true,
+      "details": 1
+    },
+    {
+      "name": "nguon.html 1440px layout",
+      "pass": true,
+      "details": {
+        "width": 1425,
+        "scroll": 1425
+      }
+    },
+    {
+      "name": "nguon.html 1440px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "nguon.html heading",
+      "pass": true,
+      "details": 1
+    },
+    {
+      "name": "index.html 768px layout",
+      "pass": true,
+      "details": {
+        "width": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "index.html 768px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "vietnam.html 768px layout",
+      "pass": true,
+      "details": {
+        "width": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "vietnam.html 768px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hoi-an.html 768px layout",
+      "pass": true,
+      "details": {
+        "width": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "hoi-an.html 768px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ha-noi.html 768px layout",
+      "pass": true,
+      "details": {
+        "width": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "ha-noi.html 768px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "da-lat.html 768px layout",
+      "pass": true,
+      "details": {
+        "width": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "da-lat.html 768px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ha-long.html 768px layout",
+      "pass": true,
+      "details": {
+        "width": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "ha-long.html 768px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ninh-binh.html 768px layout",
+      "pass": true,
+      "details": {
+        "width": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "ninh-binh.html 768px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hue.html 768px layout",
+      "pass": true,
+      "details": {
+        "width": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "hue.html 768px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ho-chi-minh.html 768px layout",
+      "pass": true,
+      "details": {
+        "width": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "ho-chi-minh.html 768px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "phu-quoc.html 768px layout",
+      "pass": true,
+      "details": {
+        "width": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "phu-quoc.html 768px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "nguon.html 768px layout",
+      "pass": true,
+      "details": {
+        "width": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "nguon.html 768px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "index.html 390px layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "index.html 390px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "vietnam.html 390px layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "vietnam.html 390px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hoi-an.html 390px layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "hoi-an.html 390px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ha-noi.html 390px layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "ha-noi.html 390px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "da-lat.html 390px layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "da-lat.html 390px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ha-long.html 390px layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "ha-long.html 390px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ninh-binh.html 390px layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "ninh-binh.html 390px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hue.html 390px layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "hue.html 390px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ho-chi-minh.html 390px layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "ho-chi-minh.html 390px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "phu-quoc.html 390px layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "phu-quoc.html 390px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "nguon.html 390px layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "nguon.html 390px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "index.html 320px layout",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "index.html 320px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "vietnam.html 320px layout",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "vietnam.html 320px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hoi-an.html 320px layout",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "hoi-an.html 320px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ha-noi.html 320px layout",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "ha-noi.html 320px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "da-lat.html 320px layout",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "da-lat.html 320px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ha-long.html 320px layout",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "ha-long.html 320px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ninh-binh.html 320px layout",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "ninh-binh.html 320px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hue.html 320px layout",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "hue.html 320px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "ho-chi-minh.html 320px layout",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "ho-chi-minh.html 320px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "phu-quoc.html 320px layout",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "phu-quoc.html 320px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "nguon.html 320px layout",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "nguon.html 320px images",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "All generated internal links and anchors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "Accent-insensitive search",
+      "pass": true
+    },
+    {
+      "name": "Search empty state",
+      "pass": true
+    },
+    {
+      "name": "Region filter",
+      "pass": true
+    },
+    {
+      "name": "Favorite persists on reload",
+      "pass": true
+    },
+    {
+      "name": "Saved destination filter",
+      "pass": true
+    },
+    {
+      "name": "Category updates content",
+      "pass": true
+    },
+    {
+      "name": "Vietnam region navigation",
+      "pass": true
+    },
+    {
+      "name": "Interactive timeline",
+      "pass": true
+    },
+    {
+      "name": "Gallery opens",
+      "pass": true
+    },
+    {
+      "name": "Gallery next image",
+      "pass": true
+    },
+    {
+      "name": "Gallery Escape closes",
+      "pass": true
+    },
+    {
+      "name": "Add place opens contextual planner",
+      "pass": true
+    },
+    {
+      "name": "3-day itinerary generated",
+      "pass": true
+    },
+    {
+      "name": "Selected place prioritized",
+      "pass": true
+    },
+    {
+      "name": "Notes escaped",
+      "pass": true
+    },
+    {
+      "name": "Switch itinerary day",
+      "pass": true
+    },
+    {
+      "name": "Remove activity",
+      "pass": true
+    },
+    {
+      "name": "Saved itinerary reloads with removal",
+      "pass": true
+    },
+    {
+      "name": "Print includes every day",
+      "pass": true
+    },
+    {
+      "name": "Edit restores selected values",
+      "pass": true
+    },
+    {
+      "name": "Planner Escape closes and unlocks page",
+      "pass": true
+    },
+    {
+      "name": "Planner matrix: 8 destinations × 3 durations × 3 paces",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "All mandatory places fit across grouped days",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "Print shows only complete itinerary",
+      "pass": true
+    },
+    {
+      "name": "Browser exports complete four-page PDF",
+      "pass": true,
+      "details": {
+        "bytes": 71681,
+        "pages": 4
+      }
+    },
+    {
+      "name": "Mobile menu opens",
+      "pass": true
+    },
+    {
+      "name": "Mobile planner fits screen",
+      "pass": true
+    },
+    {
+      "name": "Invalid day count blocks next step",
+      "pass": true
+    },
+    {
+      "name": "Malformed storage recovers safely",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion keeps content visible",
+      "pass": true
+    },
+    {
+      "name": "No uncaught browser exceptions",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": []
+}

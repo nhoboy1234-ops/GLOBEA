@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-26T13:21:59.080Z",
+  "checks": [
+    {
+      "name": "Branded arrival curtain",
+      "pass": true
+    },
+    {
+      "name": "Arrival releases the page",
+      "pass": true
+    },
+    {
+      "name": "Hero words revealed without losing accessible name",
+      "pass": true
+    },
+    {
+      "name": "Directional 3D image hover",
+      "pass": true,
+      "detail": {
+        "fine": true,
+        "active": true,
+        "transform": "matrix3d(0.999625, -0.00015302, -0.0273978, 2.73978e-05, 0, 0.999984, -0.00558502, 5.58502e-06, 0.0273982, 0.00558293, 0.999609, -0.000999609, 0, 0, 0, 1)",
+        "cursor": "motion-cursor visible is-image"
+      }
+    },
+    {
+      "name": "Contextual discovery cursor",
+      "pass": true,
+      "detail": {
+        "fine": true,
+        "active": true,
+        "transform": "matrix3d(0.999625, -0.00015302, -0.0273978, 2.73978e-05, 0, 0.999984, -0.00558502, 5.58502e-06, 0.0273982, 0.00558293, 0.999609, -0.000999609, 0, 0, 0, 1)",
+        "cursor": "motion-cursor visible is-image"
+      }
+    },
+    {
+      "name": "Magnetic CTA follows pointer within bounds",
+      "pass": true
+    },
+    {
+      "name": "Button click produces a local ripple",
+      "pass": true
+    },
+    {
+      "name": "Planner fully arrives on screen",
+      "pass": true
+    },
+    {
+      "name": "Native drawer supports closing transition",
+      "pass": true
+    },
+    {
+      "name": "Drawer releases top layer after exit",
+      "pass": true
+    },
+    {
+      "name": "Interest change keeps a photo wipe in motion",
+      "pass": true
+    },
+    {
+      "name": "Photo wipe cleans up after transition",
+      "pass": true
+    },
+    {
+      "name": "Pinned story phase 0",
+      "pass": true,
+      "detail": {
+        "top": 0,
+        "progress": 0.0004,
+        "active": 0
+      }
+    },
+    {
+      "name": "Pinned story phase 1",
+      "pass": true,
+      "detail": {
+        "top": 0,
+        "progress": 0.5204,
+        "active": 1
+      }
+    },
+    {
+      "name": "Pinned story phase 2",
+      "pass": true,
+      "detail": {
+        "top": 0,
+        "progress": 0.9604,
+        "active": 2
+      }
+    },
+    {
+      "name": "Navigation cover is shown",
+      "pass": true
+    },
+    {
+      "name": "Covered navigation reaches real destination",
+      "pass": true
+    },
+    {
+      "name": "Dynamic cards receive motion and stay usable",
+      "pass": true
+    },
+    {
+      "name": "Motion engine sleeps when idle",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "Mobile layout stays inside viewport",
+      "pass": true
+    },
+    {
+      "name": "Mobile keeps the native touch experience",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion makes every title readable",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion disables pinned choreography",
+      "pass": true
+    },
+    {
+      "name": "No uncaught motion exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "exceptions": []
+}

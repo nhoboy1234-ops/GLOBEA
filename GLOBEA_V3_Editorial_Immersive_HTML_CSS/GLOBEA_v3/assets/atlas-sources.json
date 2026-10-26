@@ -1,0 +1,17 @@
+{
+  "geometry": {
+    "name": "Natural Earth 1:10m Admin 0 Countries",
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson",
+    "license": "Public domain",
+    "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "processed_vertices": {
+      "China": 802,
+      "Vietnam": 3176,
+      "Cambodia": 190,
+      "Laos": 268,
+      "Thailand": 257
+    }
+  },
+  "island_reference": "https://mofa.gov.vn/web/ministry-of-foreign-affairs/detail/chi-tiet/undeniable-history-hoang-sa-truong-sa-have-always-been-sacred-territories-of-viet-nam--39.html",
+  "note": "Tourism illustration. Island markers are enlarged for legibility. No maritime boundaries are drawn."
+}

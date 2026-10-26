@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="vi">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="#faf9f6" name="theme-color"/>
+  <meta content="Những m&aacute;i nh&agrave; v&agrave;ng ấm, những ngọn &dstrok;&egrave;n lồng v&agrave; nhịp sống b&igrave;nh y&ecirc;n b&ecirc;n d&ograve;ng s&ocirc;ng Ho&agrave;i." name="description"/>
+  <title>
+   Hội An &middot; &Dstrok;iểm &dstrok;ến &mdash; GLOBEA
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&amp;family=Playfair+Display:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body class="theme-hoi-an v3-detail v3-hoi-an">
+  <header class="site-header">
+   <div class="nav-inner">
+    <a aria-label="GLOBEA - về trang chủ" class="brand" href="index.html">
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24">
+       <circle cx="12" cy="12" r="9">
+       </circle>
+       <path d="M3 12h18M12 3a16 16 0 0 1 0 18M12 3a16 16 0 0 0 0 18">
+       </path>
+      </svg>
+     </span>
+     <span>
+      GLOBEA
+      <span class="brand-dot">
+       .
+      </span>
+     </span>
+    </a>
+    <nav aria-label="&Dstrok;iều hướng ch&iacute;nh" class="desktop-nav">
+     <a href="index.html">
+      Kh&aacute;m ph&aacute;
+     </a>
+     <a href="index.html#diem-den">
+      &Dstrok;iểm &dstrok;ến
+     </a>
+     <a href="index.html#cau-chuyen">
+      Cảm hứng
+     </a>
+     <a href="index.html#about">
+      Về GLOBEA
+     </a>
+    </nav>
+    <div class="nav-actions">
+     <a aria-label="Ng&ocirc;n ngữ Tiếng Việt" class="language" href="#">
+      VI
+      <span class="tiny-chevron">
+       ⌄
+      </span>
+     </a>
+     <a class="nav-cta" href="#noi-bat">
+      Xem trải nghiệm
+      <span aria-hidden="true" class="ico">
+       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+        <path d="M4 12h16M13 5l7 7-7 7">
+        </path>
+       </svg>
+      </span>
+     </a>
+    </div>
+   </div>
+  </header>
+  <input aria-label="Mở bảng l&ecirc;n lịch tr&igrave;nh" class="planner-toggle" id="planner-toggle" type="checkbox"/>
+  <label aria-label="&Dstrok;&oacute;ng bảng lập lịch tr&igrave;nh" class="planner-backdrop" for="planner-toggle">
+  </label>
+  <label class="planner-peek" for="planner-toggle" title="Mở c&ocirc;ng cụ lập lịch tr&igrave;nh">
+   <span class="peek-arrow">
+    &lsaquo;
+   </span>
+   <span class="peek-label">
+    L&Ecirc;N LỊCH TR&Igrave;NH
+   </span>
+  </label>
+  <aside aria-label="Bảng c&ocirc;ng cụ l&ecirc;n lịch tr&igrave;nh" class="planner-drawer">
+   <div class="drawer-head">
+    <div>
+     <span class="eyebrow muted">
+      YOUR JOURNEY, YOUR WAY
+     </span>
+     <h2>
+      Thiết kế chuyến &dstrok;i
+      <span class="accent-period">
+       .
+      </span>
+     </h2>
+    </div>
+    <label class="drawer-close" for="planner-toggle" title="&Dstrok;&oacute;ng bảng">
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" viewbox="0 0 24 24">
+       <path d="M5 5l14 14M19 5 5 19">
+       </path>
+      </svg>
+     </span>
+    </label>
+   </div>
+   <div class="drawer-body">
+    <p class="drawer-intro">
+     Chọn &dstrok;iều bạn y&ecirc;u th&iacute;ch. GLOBEA sẽ gi&uacute;p bạn h&igrave;nh dung h&agrave;nh tr&igrave;nh ph&ugrave; hợp nhất.
+    </p>
+    <div class="drawer-block">
+     <label class="form-label" for="destination">
+      01 / Bạn muốn &dstrok;i &dstrok;&acirc;u?
+     </label>
+     <input id="destination" placeholder="Quốc gia hoặc th&agrave;nh phố" type="text" value="Hội An, Việt Nam"/>
+    </div>
+    <div class="two-fields">
+     <div class="drawer-block">
+      <label class="form-label" for="days">
+       02 / Số ng&agrave;y
+      </label>
+      <select id="days">
+       <option>
+        2 ng&agrave;y 1 &dstrok;&ecirc;m
+       </option>
+       <option selected="">
+        3 ng&agrave;y 2 &dstrok;&ecirc;m
+       </option>
+       <option>
+        4 ng&agrave;y 3 &dstrok;&ecirc;m
+       </option>
+       <option>
+        5 ng&agrave;y 4 &dstrok;&ecirc;m
+       </option>
+       <option>
+        7 ng&agrave;y 6 &dstrok;&ecirc;m
+       </option>
+       <option>
+        10 ng&agrave;y
+       </option>
+      </select>
+     </div>
+     <div class="drawer-block">
+      <label class="form-label" for="people">
+       03 / Số người
+      </label>
+      <select id="people">
+       <option>
+        1 người
+       </option>
+       <option selected="">
+        2 người
+       </option>
+       <option>
+        3 người
+       </option>
+       <option>
+        4 người
+       </option>
+       <option>
+        Nh&oacute;m 5+ người
+       </option>
+      </select>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      04 / Sở th&iacute;ch của bạn
+      <small>
+       (chọn nhiều)
+      </small>
+     </span>
+     <div class="choice-grid">
+      <label class="choice">
+       <input checked="" type="checkbox"/>
+       <span>
+        🏛️ V&abreve;n h&oacute;a
+       </span>
+      </label>
+      <label class="choice">
+       <input checked="" type="checkbox"/>
+       <span>
+        🍜 Ẩm thực
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        📷 Check-in
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        🌿 Thi&ecirc;n nhi&ecirc;n
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        ☕ Thư gi&atilde;n
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        🥾 Phi&ecirc;u lưu
+       </span>
+      </label>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      04A / M&oacute;n &abreve;n bạn muốn thử
+      <small>
+       (chọn nhiều)
+      </small>
+     </span>
+     <div class="choice-grid">
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Cao lầu
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        B&aacute;nh m&igrave; Hội An
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        C&agrave; ph&ecirc; phố cổ
+       </span>
+      </label>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      04B / &Dstrok;iểm nhất &dstrok;ịnh muốn gh&eacute;
+      <small>
+       (chọn nhiều)
+      </small>
+     </span>
+     <div class="choice-grid">
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Ch&ugrave;a Cầu
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Phố cổ về &dstrok;&ecirc;m
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Biển An B&agrave;ng
+       </span>
+      </label>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      05 / Ng&acirc;n s&aacute;ch dự kiến
+      <small>
+       (mỗi người)
+      </small>
+     </span>
+     <div class="choice-row">
+      <label class="choice">
+       <input name="budget" type="radio"/>
+       <span>
+        Tiết kiệm
+       </span>
+      </label>
+      <label class="choice">
+       <input checked="" name="budget" type="radio"/>
+       <span>
+        Vừa phải
+       </span>
+      </label>
+      <label class="choice">
+       <input name="budget" type="radio"/>
+       <span>
+        Thoải m&aacute;i
+       </span>
+      </label>
+     </div>
+     <div class="two-fields minor">
+      <div>
+       <label class="micro-label" for="budget-min">
+        Từ (VN&Dstrok;)
+       </label>
+       <input id="budget-min" placeholder="2.000.000" type="text"/>
+      </div>
+      <div>
+       <label class="micro-label" for="budget-max">
+        &Dstrok;ến (VN&Dstrok;)
+       </label>
+       <input id="budget-max" placeholder="6.000.000" type="text"/>
+      </div>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      06 / Bạn muốn ở như thế n&agrave;o?
+     </span>
+     <div class="choice-row">
+      <label class="choice">
+       <input name="stay" type="radio"/>
+       <span>
+        Homestay
+       </span>
+      </label>
+      <label class="choice">
+       <input checked="" name="stay" type="radio"/>
+       <span>
+        Kh&aacute;ch sạn
+       </span>
+      </label>
+      <label class="choice">
+       <input name="stay" type="radio"/>
+       <span>
+        Resort
+       </span>
+      </label>
+     </div>
+    </div>
+    <div class="two-fields">
+     <div class="drawer-block">
+      <label class="form-label" for="travel-style">
+       07 / Nhịp &dstrok;ộ
+      </label>
+      <select id="travel-style">
+       <option>
+        Thư thả
+       </option>
+       <option selected="">
+        C&acirc;n bằng
+       </option>
+       <option>
+        Kh&aacute;m ph&aacute; nhiều
+       </option>
+      </select>
+     </div>
+     <div class="drawer-block">
+      <label class="form-label" for="transport">
+       08 / Di chuyển
+      </label>
+      <select id="transport">
+       <option>
+        &Dstrok;i bộ + taxi
+       </option>
+       <option>
+        Xe m&aacute;y
+       </option>
+       <option>
+        Thu&ecirc; &ocirc; t&ocirc;
+       </option>
+       <option selected="">
+        &Dstrok;ề xuất ph&ugrave; hợp
+       </option>
+      </select>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <label class="form-label" for="notes">
+      09 / Y&ecirc;u cầu th&ecirc;m
+     </label>
+     <textarea id="notes" placeholder="V&iacute; dụ: ưu ti&ecirc;n m&oacute;n &dstrok;ịa phương, kh&ocirc;ng &dstrok;i qu&aacute; sớm, c&oacute; trẻ nhỏ..." rows="3"></textarea>
+    </div>
+    <div class="drawer-note">
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24">
+       <path d="M12 2l2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5L12 2Z">
+       </path>
+      </svg>
+     </span>
+     <span>
+      &Dstrok;&acirc;y l&agrave; bản thiết kế giao diện. C&aacute;c &ocirc; c&oacute; thể chọn v&agrave; chỉnh sửa; t&iacute;nh n&abreve;ng tự tạo lịch tr&igrave;nh sẽ &dstrok;ược bổ sung ở giai &dstrok;oạn lập tr&igrave;nh.
+     </span>
+    </div>
+   </div>
+   <div class="drawer-foot">
+    <div class="drawer-total">
+     <span>
+      &Dstrok;&atilde; chọn &dstrok;iểm &dstrok;ến
+     </span>
+     <strong>
+      Hội An, Việt Nam
+     </strong>
+    </div>
+    <button class="solid-button preview-button" disabled="" title="T&iacute;nh n&abreve;ng tạo lịch tr&igrave;nh sẽ &dstrok;ược bổ sung sau" type="button">
+     Tạo lịch tr&igrave;nh
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+       <path d="M4 12h16M13 5l7 7-7 7">
+       </path>
+      </svg>
+     </span>
+    </button>
+   </div>
+  </aside>
+  <main>
+   <div class="bread page-shell">
+    <a href="index.html">
+     Kh&aacute;m ph&aacute;
+    </a>
+    <span>
+     /
+    </span>
+    <a href="index.html#diem-den">
+     Việt Nam
+    </a>
+    <span>
+     /
+    </span>
+    <strong>
+     Hội An
+    </strong>
+   </div>
+   <section class="place-hero page-shell v3-place-hero">
+    <div class="place-photo">
+     <img alt="Hội An - &dstrok;iểm &dstrok;ến du lịch" fetchpriority="high" loading="eager" src="../assets/hoian.jpg"/>
+     <div class="place-darkener">
+     </div>
+     <div class="place-hero-content">
+      <span class="eyebrow hero-eyebrow">
+       VIỆT NAM
+       <span class="eyebrow-line">
+       </span>
+       TH&Agrave;NH PHỐ DI SẢN
+      </span>
+      <h1>
+       Hội An
+       <span class="hero-small-period">
+        .
+       </span>
+      </h1>
+      <p>
+       Những m&aacute;i nh&agrave; v&agrave;ng ấm, những ngọn &dstrok;&egrave;n lồng v&agrave; nhịp sống b&igrave;nh y&ecirc;n b&ecirc;n d&ograve;ng s&ocirc;ng Ho&agrave;i.
+      </p>
+      <a class="watch-link" href="#tong-quan">
+       <span class="watch-icon">
+        &darr;
+       </span>
+       Kh&aacute;m ph&aacute; c&acirc;u chuyện
+      </a>
+     </div>
+     <span class="hero-side-note">
+      GLOBEA / STORIES OF PLACES
+     </span>
+     <span class="v3-place-label">
+      VIỆT NAM / CULTURE COLLECTION
+     </span>
+    </div>
+    <span class="v3-place-edition">
+     VOL. 01
+     <b>
+      &mdash;
+     </b>
+     THE HERITAGE EDITION
+    </span>
+   </section>
+   <div class="place-facts page-shell">
+    <div>
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24">
+       <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z">
+       </path>
+       <circle cx="12" cy="10" r="2.5">
+       </circle>
+      </svg>
+     </span>
+     <span>
+      <small>
+       VỊ TR&Iacute;
+      </small>
+      <strong>
+       &Dstrok;&agrave; Nẵng, Việt Nam
+      </strong>
+     </span>
+    </div>
+    <div>
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24">
+       <rect height="16" rx="2" width="18" x="3" y="5">
+       </rect>
+       <path d="M7 3v4M17 3v4M3 10h18">
+       </path>
+      </svg>
+     </span>
+     <span>
+      <small>
+       THỜI &Dstrok;IỂM GỢI &Yacute;
+      </small>
+      <strong>
+       Th&aacute;ng 2 &ndash; th&aacute;ng 4
+      </strong>
+     </span>
+    </div>
+    <div>
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24">
+       <circle cx="12" cy="12" r="9">
+       </circle>
+       <path d="M12 7v5l4 2">
+       </path>
+      </svg>
+     </span>
+     <span>
+      <small>
+       THỜI GIAN KH&Aacute;M PH&Aacute;
+      </small>
+      <strong>
+       1&ndash;3 ng&agrave;y
+      </strong>
+     </span>
+    </div>
+    <div>
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24">
+       <path d="M20.8 4.7a5.7 5.7 0 0 0-8.1 0l-.7.7-.7-.7a5.7 5.7 0 0 0-8.1 8c1.9 2.2 8.8 8.9 8.8 8.9s6.9-6.7 8.8-8.9a5.7 5.7 0 0 0 0-8Z">
+       </path>
+      </svg>
+     </span>
+     <span>
+      <small>
+       PH&Ugrave; HỢP VỚI
+      </small>
+      <strong>
+       V&abreve;n h&oacute;a &middot; Ẩm thực &middot; Dạo phố
+      </strong>
+     </span>
+    </div>
+   </div>
+   <nav aria-label="Nội dung &dstrok;iểm &dstrok;ến" class="place-subnav page-shell">
+    <a href="#tong-quan">
+     Tổng quan
+    </a>
+    <a href="#lich-su">
+     Lịch sử &amp; v&abreve;n h&oacute;a
+    </a>
+    <a href="#am-thuc">
+     Ẩm thực
+    </a>
+    <a href="#noi-bat">
+     Trải nghiệm
+    </a>
+    <a href="#luu-tru">
+     Lưu tr&uacute; &amp; mẹo hay
+    </a>
+   </nav>
+   <section class="overview-section page-shell" id="tong-quan">
+    <div class="overview-label">
+     <span class="eyebrow dark">
+      01 / INTRODUCTION
+     </span>
+     <h2>
+      Kh&ocirc;ng chỉ l&agrave;
+      <br/>
+      <em>
+       một &dstrok;iểm &dstrok;ến.
+      </em>
+     </h2>
+    </div>
+    <div class="overview-body">
+     <p class="lead-paragraph">
+      Hội An quyến r&utilde; kh&ocirc;ng phải bởi những &dstrok;iều h&agrave;o nho&aacute;ng, m&agrave; qua những con hẻm nhỏ, tường v&agrave;ng &dstrok;&atilde; nhuốm m&agrave;u thời gian v&agrave; nhịp sống ven s&ocirc;ng. &Dstrok;i bộ qua phố cổ, bạn c&oacute; thể bắt gặp c&aacute;c hội qu&aacute;n, ng&ocirc;i nh&agrave; gỗ truyền thống v&agrave; những quầy h&agrave;ng lưu giữ hương vị xứ Quảng.
+     </p>
+     <div class="overview-highlight">
+      <span class="short-line">
+      </span>
+      <p>
+       Buổi chiều, khi &aacute;nh nắng chạm v&agrave;o m&aacute;i ng&oacute;i v&agrave; phố bắt &dstrok;ầu l&ecirc;n &dstrok;&egrave;n, Hội An trở n&ecirc;n &dstrok;ặc biệt dịu d&agrave;ng.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="story-section" id="lich-su">
+    <div class="page-shell story-grid">
+     <div class="story-photo">
+      <img alt="Hội An v&abreve;n h&oacute;a v&agrave; kiến tr&uacute;c" loading="lazy" src="../assets/hoian.jpg"/>
+      <div class="story-image-count">
+       GLOBEA JOURNAL &middot; 002
+      </div>
+     </div>
+     <div class="story-copy">
+      <span class="eyebrow dark">
+       02 / STORIES &amp; HERITAGE
+      </span>
+      <h2>
+       Một ch&uacute;t
+       <br/>
+       <em>
+        lịch sử th&uacute; vị.
+       </em>
+      </h2>
+      <h3>
+       Một thương cảng kể chuyện bằng kiến tr&uacute;c.
+      </h3>
+      <p>
+       Từ khoảng thế kỷ XVI &dstrok;ến XIX, Hội An ph&aacute;t triển như một thương cảng quốc tế, kết nối c&aacute;c thương nh&acirc;n &dstrok;ến từ nhiều v&ugrave;ng ch&acirc;u &Aacute; v&agrave; ch&acirc;u &Acirc;u. Sự giao thoa ấy &dstrok;ể lại dấu ấn ở những ng&ocirc;i nh&agrave; cổ, hội qu&aacute;n v&agrave; Ch&ugrave;a Cầu.
+      </p>
+      <div class="history-marker">
+       <strong>
+        XVI&ndash;XIX
+       </strong>
+       <span>
+        Giai &dstrok;oạn Hội An ph&aacute;t triển mạnh với vai tr&ograve; thương cảng quốc tế.
+       </span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="recommend-section page-shell" id="am-thuc">
+    <div class="section-head stretch">
+     <div>
+      <span class="eyebrow dark">
+       03 / LOCAL FLAVOURS
+      </span>
+      <h2>
+       Hương vị
+       <em>
+        của nơi n&agrave;y.
+       </em>
+      </h2>
+     </div>
+     <p>
+      M&oacute;n ngon kh&ocirc;ng chỉ &dstrok;ể thưởng thức, m&agrave; c&ograve;n l&agrave; một c&aacute;ch &dstrok;ể hiểu cuộc sống &dstrok;ịa phương.
+     </p>
+    </div>
+    <div class="recommend-grid">
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Cao lầu" loading="lazy" src="../assets/cuisine.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        ẨM THỰC &Dstrok;ỊA PHƯƠNG
+       </span>
+       <h3>
+        Cao lầu
+       </h3>
+       <p>
+        Sợi m&igrave; &dstrok;ặc trưng xứ Quảng, rau sống v&agrave; thịt x&aacute; x&iacute;u.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="B&aacute;nh m&igrave; Hội An" loading="lazy" src="../assets/food.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        ẨM THỰC &Dstrok;ỊA PHƯƠNG
+       </span>
+       <h3>
+        B&aacute;nh m&igrave; Hội An
+       </h3>
+       <p>
+        Một lựa chọn tiện lợi &dstrok;ể bắt &dstrok;ầu h&agrave;nh tr&igrave;nh dạo phố.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="C&agrave; ph&ecirc; phố cổ" loading="lazy" src="../assets/coffee.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        ẨM THỰC &Dstrok;ỊA PHƯƠNG
+       </span>
+       <h3>
+        C&agrave; ph&ecirc; phố cổ
+       </h3>
+       <p>
+        Ngồi b&ecirc;n &ocirc; cửa nhỏ, chậm r&atilde;i ngắm nhịp sống.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="discover-section page-shell" id="noi-bat">
+    <div class="section-head stretch">
+     <div>
+      <span class="eyebrow dark">
+       04 / HANDPICKED EXPERIENCES
+      </span>
+      <h2>
+       &Dstrok;&aacute;ng &dstrok;ể
+       <em>
+        dừng ch&acirc;n.
+       </em>
+      </h2>
+     </div>
+     <p>
+      Những g&oacute;c nhỏ, &dstrok;ịa danh v&agrave; trải nghiệm &dstrok;ể h&agrave;nh tr&igrave;nh của bạn c&oacute; th&ecirc;m nhiều c&acirc;u chuyện.
+     </p>
+    </div>
+    <div class="recommend-grid">
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Ch&ugrave;a Cầu" loading="lazy" src="../assets/culture.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        GỢI &Yacute; TRẢI NGHIỆM
+       </span>
+       <h3>
+        Ch&ugrave;a Cầu
+       </h3>
+       <p>
+        Biểu tượng kiến tr&uacute;c gắn với lịch sử thương cảng.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Phố cổ về &dstrok;&ecirc;m" loading="lazy" src="../assets/hoian.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        GỢI &Yacute; TRẢI NGHIỆM
+       </span>
+       <h3>
+        Phố cổ về &dstrok;&ecirc;m
+       </h3>
+       <p>
+        Dạo giữa &dstrok;&egrave;n lồng, những ng&ocirc;i nh&agrave; v&agrave;ng v&agrave; d&ograve;ng s&ocirc;ng.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Biển An B&agrave;ng" loading="lazy" src="../assets/beach.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        GỢI &Yacute; TRẢI NGHIỆM
+       </span>
+       <h3>
+        Biển An B&agrave;ng
+       </h3>
+       <p>
+        Một buổi chiều thư gi&atilde;n khi muốn rời khu phố cổ.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="practical-section" id="luu-tru">
+    <div class="page-shell practical-grid">
+     <div class="practical-column">
+      <span class="eyebrow dark">
+       05 / REST WELL
+      </span>
+      <h2>
+       Ở &dstrok;&acirc;u &dstrok;ể
+       <br/>
+       <em>
+        thấy gần hơn?
+       </em>
+      </h2>
+      <p class="practical-intro">
+       T&ugrave;y v&agrave;o nhịp &dstrok;ộ v&agrave; ng&acirc;n s&aacute;ch, h&atilde;y chọn một kh&ocirc;ng gian ph&ugrave; hợp với trải nghiệm bạn mong muốn.
+      </p>
+      <div class="stay-list">
+       <div class="stay-suggestion">
+        <img alt="Homestay ven phố" loading="lazy" src="../assets/hotel.jpg"/>
+        <div>
+         <strong>
+          Homestay ven phố
+         </strong>
+         <p>
+          Gần trung t&acirc;m, ấm c&uacute;ng, thuận tiện &dstrok;i bộ.
+         </p>
+        </div>
+       </div>
+       <div class="stay-suggestion">
+        <img alt="Boutique hotel" loading="lazy" src="../assets/hotel.jpg"/>
+        <div>
+         <strong>
+          Boutique hotel
+         </strong>
+         <p>
+          Kh&ocirc;ng gian chỉn chu, ri&ecirc;ng tư, ph&ugrave; hợp nghỉ dưỡng.
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="practical-column tips-column" id="meo-hay">
+      <span class="eyebrow dark">
+       06 / LITTLE THINGS TO KNOW
+      </span>
+      <h2>
+       Một v&agrave;i &dstrok;iều
+       <br/>
+       <em>
+        n&ecirc;n biết trước.
+       </em>
+      </h2>
+      <p class="practical-intro">
+       Những gợi &yacute; ngắn gọn gi&uacute;p chuyến &dstrok;i thoải m&aacute;i v&agrave; c&oacute; tr&aacute;ch nhiệm hơn.
+      </p>
+      <div class="tips-list">
+       <div class="tip-item">
+        <span class="tip-dot">
+         ✦
+        </span>
+        <div>
+         <strong>
+          &Dstrok;i bộ l&agrave; th&uacute; vị nhất
+         </strong>
+         <p>
+          Nhiều &dstrok;oạn trong khu phố cổ c&oacute; quy &dstrok;ịnh hạn chế phương tiện theo khung giờ.
+         </p>
+        </div>
+       </div>
+       <div class="tip-item">
+        <span class="tip-dot">
+         ✦
+        </span>
+        <div>
+         <strong>
+          Chọn buổi s&aacute;ng hoặc chiều muộn
+         </strong>
+         <p>
+          &Aacute;nh s&aacute;ng dễ chịu v&agrave; kh&ocirc;ng kh&iacute; ph&ugrave; hợp &dstrok;ể dạo phố, chụp ảnh.
+         </p>
+        </div>
+       </div>
+       <div class="tip-item">
+        <span class="tip-dot">
+         ✦
+        </span>
+        <div>
+         <strong>
+          Kiểm tra v&eacute; tham quan
+         </strong>
+         <p>
+          Một số di t&iacute;ch v&agrave; hoạt &dstrok;ộng c&oacute; y&ecirc;u cầu v&eacute; ri&ecirc;ng; n&ecirc;n xem th&ocirc;ng tin hiện h&agrave;nh.
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="end-quote page-shell">
+    <span class="eyebrow dark">
+     TAKE THE LONG WAY HOME
+    </span>
+    <blockquote>
+     &ldquo;Hội An kh&ocirc;ng cần bạn vội. Th&agrave;nh phố n&agrave;y &dstrok;ẹp nhất khi bạn d&agrave;nh thời gian &dstrok;ể lắng nghe.&rdquo;
+    </blockquote>
+    <div>
+     <span>
+      GLOBEA TRAVEL NOTES
+     </span>
+     <label class="solid-button" for="planner-toggle" tabindex="0">
+      L&ecirc;n lịch tr&igrave;nh &dstrok;ến Hội An
+      <span aria-hidden="true" class="ico">
+       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+        <path d="M4 12h16M13 5l7 7-7 7">
+        </path>
+       </svg>
+      </span>
+     </label>
+    </div>
+   </section>
+   <section class="next-destinations page-shell">
+    <div>
+     <span class="eyebrow dark">
+      THE JOURNEY CONTINUES
+     </span>
+     <h2>
+      Tiếp tục
+      <em>
+       kh&aacute;m ph&aacute;.
+      </em>
+     </h2>
+    </div>
+    <div class="next-links">
+     <a href="hoi-an.html">
+      Hội An
+      <span>
+       &nearrow;
+      </span>
+     </a>
+     <a href="kyoto.html">
+      Kyoto
+      <span>
+       &nearrow;
+      </span>
+     </a>
+     <a href="amalfi.html">
+      Amalfi Coast
+      <span>
+       &nearrow;
+      </span>
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="site-footer" id="ve-globea">
+   <div class="footer-inner">
+    <div>
+     <a class="footer-brand" href="index.html">
+      GLOBEA
+      <span>
+       .
+      </span>
+     </a>
+     <p>
+      Kh&aacute;m ph&aacute; s&acirc;u hơn. Trải nghiệm nhiều hơn.
+      <br/>
+      &Dstrok;i khắp thế giới, theo c&aacute;ch của ri&ecirc;ng bạn.
+     </p>
+    </div>
+    <div class="footer-links">
+     <div>
+      <strong>
+       Kh&aacute;m ph&aacute;
+      </strong>
+      <a href="hoi-an.html">
+       Hội An
+      </a>
+      <a href="kyoto.html">
+       Kyoto
+      </a>
+      <a href="amalfi.html">
+       Amalfi
+      </a>
+     </div>
+     <div>
+      <strong>
+       Th&ocirc;ng tin
+      </strong>
+      <a href="index.html#cau-chuyen">
+       Cảm hứng du lịch
+      </a>
+      <a href="index.html#about">
+       Về dự &aacute;n
+      </a>
+      <a href="hoi-an.html#meo-hay">
+       Cẩm nang
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="footer-bottom">
+    <span>
+     &copy; 2026 GLOBEA &middot; Travel thoughtfully.
+    </span>
+    <span>
+     Giao diện concept &middot; HTML &amp; CSS
+    </span>
+   </div>
+  </footer>
+ </body>
+</html>

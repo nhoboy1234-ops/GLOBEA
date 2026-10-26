@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="vi">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="#faf9f6" name="theme-color"/>
+  <meta content="Một thế giới của &dstrok;ền ch&ugrave;a, khu vườn, những con ng&otilde; nhỏ v&agrave; n&eacute;t tinh tế vượt thời gian." name="description"/>
+  <title>
+   Kyoto &middot; &Dstrok;iểm &dstrok;ến &mdash; GLOBEA
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&amp;family=Playfair+Display:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body class="theme-kyoto v3-detail v3-kyoto">
+  <header class="site-header">
+   <div class="nav-inner">
+    <a aria-label="GLOBEA - về trang chủ" class="brand" href="index.html">
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24">
+       <circle cx="12" cy="12" r="9">
+       </circle>
+       <path d="M3 12h18M12 3a16 16 0 0 1 0 18M12 3a16 16 0 0 0 0 18">
+       </path>
+      </svg>
+     </span>
+     <span>
+      GLOBEA
+      <span class="brand-dot">
+       .
+      </span>
+     </span>
+    </a>
+    <nav aria-label="&Dstrok;iều hướng ch&iacute;nh" class="desktop-nav">
+     <a href="index.html">
+      Kh&aacute;m ph&aacute;
+     </a>
+     <a href="index.html#diem-den">
+      &Dstrok;iểm &dstrok;ến
+     </a>
+     <a href="index.html#cau-chuyen">
+      Cảm hứng
+     </a>
+     <a href="index.html#about">
+      Về GLOBEA
+     </a>
+    </nav>
+    <div class="nav-actions">
+     <a aria-label="Ng&ocirc;n ngữ Tiếng Việt" class="language" href="#">
+      VI
+      <span class="tiny-chevron">
+       ⌄
+      </span>
+     </a>
+     <a class="nav-cta" href="#noi-bat">
+      Xem trải nghiệm
+      <span aria-hidden="true" class="ico">
+       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+        <path d="M4 12h16M13 5l7 7-7 7">
+        </path>
+       </svg>
+      </span>
+     </a>
+    </div>
+   </div>
+  </header>
+  <input aria-label="Mở bảng l&ecirc;n lịch tr&igrave;nh" class="planner-toggle" id="planner-toggle" type="checkbox"/>
+  <label aria-label="&Dstrok;&oacute;ng bảng lập lịch tr&igrave;nh" class="planner-backdrop" for="planner-toggle">
+  </label>
+  <label class="planner-peek" for="planner-toggle" title="Mở c&ocirc;ng cụ lập lịch tr&igrave;nh">
+   <span class="peek-arrow">
+    &lsaquo;
+   </span>
+   <span class="peek-label">
+    L&Ecirc;N LỊCH TR&Igrave;NH
+   </span>
+  </label>
+  <aside aria-label="Bảng c&ocirc;ng cụ l&ecirc;n lịch tr&igrave;nh" class="planner-drawer">
+   <div class="drawer-head">
+    <div>
+     <span class="eyebrow muted">
+      YOUR JOURNEY, YOUR WAY
+     </span>
+     <h2>
+      Thiết kế chuyến &dstrok;i
+      <span class="accent-period">
+       .
+      </span>
+     </h2>
+    </div>
+    <label class="drawer-close" for="planner-toggle" title="&Dstrok;&oacute;ng bảng">
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" viewbox="0 0 24 24">
+       <path d="M5 5l14 14M19 5 5 19">
+       </path>
+      </svg>
+     </span>
+    </label>
+   </div>
+   <div class="drawer-body">
+    <p class="drawer-intro">
+     Chọn &dstrok;iều bạn y&ecirc;u th&iacute;ch. GLOBEA sẽ gi&uacute;p bạn h&igrave;nh dung h&agrave;nh tr&igrave;nh ph&ugrave; hợp nhất.
+    </p>
+    <div class="drawer-block">
+     <label class="form-label" for="destination">
+      01 / Bạn muốn &dstrok;i &dstrok;&acirc;u?
+     </label>
+     <input id="destination" placeholder="Quốc gia hoặc th&agrave;nh phố" type="text" value="Kyoto, Nhật Bản"/>
+    </div>
+    <div class="two-fields">
+     <div class="drawer-block">
+      <label class="form-label" for="days">
+       02 / Số ng&agrave;y
+      </label>
+      <select id="days">
+       <option>
+        2 ng&agrave;y 1 &dstrok;&ecirc;m
+       </option>
+       <option selected="">
+        3 ng&agrave;y 2 &dstrok;&ecirc;m
+       </option>
+       <option>
+        4 ng&agrave;y 3 &dstrok;&ecirc;m
+       </option>
+       <option>
+        5 ng&agrave;y 4 &dstrok;&ecirc;m
+       </option>
+       <option>
+        7 ng&agrave;y 6 &dstrok;&ecirc;m
+       </option>
+       <option>
+        10 ng&agrave;y
+       </option>
+      </select>
+     </div>
+     <div class="drawer-block">
+      <label class="form-label" for="people">
+       03 / Số người
+      </label>
+      <select id="people">
+       <option>
+        1 người
+       </option>
+       <option selected="">
+        2 người
+       </option>
+       <option>
+        3 người
+       </option>
+       <option>
+        4 người
+       </option>
+       <option>
+        Nh&oacute;m 5+ người
+       </option>
+      </select>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      04 / Sở th&iacute;ch của bạn
+      <small>
+       (chọn nhiều)
+      </small>
+     </span>
+     <div class="choice-grid">
+      <label class="choice">
+       <input checked="" type="checkbox"/>
+       <span>
+        🏛️ V&abreve;n h&oacute;a
+       </span>
+      </label>
+      <label class="choice">
+       <input checked="" type="checkbox"/>
+       <span>
+        🍜 Ẩm thực
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        📷 Check-in
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        🌿 Thi&ecirc;n nhi&ecirc;n
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        ☕ Thư gi&atilde;n
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        🥾 Phi&ecirc;u lưu
+       </span>
+      </label>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      04A / M&oacute;n &abreve;n bạn muốn thử
+      <small>
+       (chọn nhiều)
+      </small>
+     </span>
+     <div class="choice-grid">
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Ẩm thực kaiseki
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        M&igrave; soba
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Matcha &amp; wagashi
+       </span>
+      </label>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      04B / &Dstrok;iểm nhất &dstrok;ịnh muốn gh&eacute;
+      <small>
+       (chọn nhiều)
+      </small>
+     </span>
+     <div class="choice-grid">
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Fushimi Inari
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Arashiyama
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Gion
+       </span>
+      </label>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      05 / Ng&acirc;n s&aacute;ch dự kiến
+      <small>
+       (mỗi người)
+      </small>
+     </span>
+     <div class="choice-row">
+      <label class="choice">
+       <input name="budget" type="radio"/>
+       <span>
+        Tiết kiệm
+       </span>
+      </label>
+      <label class="choice">
+       <input checked="" name="budget" type="radio"/>
+       <span>
+        Vừa phải
+       </span>
+      </label>
+      <label class="choice">
+       <input name="budget" type="radio"/>
+       <span>
+        Thoải m&aacute;i
+       </span>
+      </label>
+     </div>
+     <div class="two-fields minor">
+      <div>
+       <label class="micro-label" for="budget-min">
+        Từ (VN&Dstrok;)
+       </label>
+       <input id="budget-min" placeholder="2.000.000" type="text"/>
+      </div>
+      <div>
+       <label class="micro-label" for="budget-max">
+        &Dstrok;ến (VN&Dstrok;)
+       </label>
+       <input id="budget-max" placeholder="6.000.000" type="text"/>
+      </div>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      06 / Bạn muốn ở như thế n&agrave;o?
+     </span>
+     <div class="choice-row">
+      <label class="choice">
+       <input name="stay" type="radio"/>
+       <span>
+        Homestay
+       </span>
+      </label>
+      <label class="choice">
+       <input checked="" name="stay" type="radio"/>
+       <span>
+        Kh&aacute;ch sạn
+       </span>
+      </label>
+      <label class="choice">
+       <input name="stay" type="radio"/>
+       <span>
+        Resort
+       </span>
+      </label>
+     </div>
+    </div>
+    <div class="two-fields">
+     <div class="drawer-block">
+      <label class="form-label" for="travel-style">
+       07 / Nhịp &dstrok;ộ
+      </label>
+      <select id="travel-style">
+       <option>
+        Thư thả
+       </option>
+       <option selected="">
+        C&acirc;n bằng
+       </option>
+       <option>
+        Kh&aacute;m ph&aacute; nhiều
+       </option>
+      </select>
+     </div>
+     <div class="drawer-block">
+      <label class="form-label" for="transport">
+       08 / Di chuyển
+      </label>
+      <select id="transport">
+       <option>
+        &Dstrok;i bộ + taxi
+       </option>
+       <option>
+        Xe m&aacute;y
+       </option>
+       <option>
+        Thu&ecirc; &ocirc; t&ocirc;
+       </option>
+       <option selected="">
+        &Dstrok;ề xuất ph&ugrave; hợp
+       </option>
+      </select>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <label class="form-label" for="notes">
+      09 / Y&ecirc;u cầu th&ecirc;m
+     </label>
+     <textarea id="notes" placeholder="V&iacute; dụ: ưu ti&ecirc;n m&oacute;n &dstrok;ịa phương, kh&ocirc;ng &dstrok;i qu&aacute; sớm, c&oacute; trẻ nhỏ..." rows="3"></textarea>
+    </div>
+    <div class="drawer-note">
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24">
+       <path d="M12 2l2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5L12 2Z">
+       </path>
+      </svg>
+     </span>
+     <span>
+      &Dstrok;&acirc;y l&agrave; bản thiết kế giao diện. C&aacute;c &ocirc; c&oacute; thể chọn v&agrave; chỉnh sửa; t&iacute;nh n&abreve;ng tự tạo lịch tr&igrave;nh sẽ &dstrok;ược bổ sung ở giai &dstrok;oạn lập tr&igrave;nh.
+     </span>
+    </div>
+   </div>
+   <div class="drawer-foot">
+    <div class="drawer-total">
+     <span>
+      &Dstrok;&atilde; chọn &dstrok;iểm &dstrok;ến
+     </span>
+     <strong>
+      Kyoto, Nhật Bản
+     </strong>
+    </div>
+    <button class="solid-button preview-button" disabled="" title="T&iacute;nh n&abreve;ng tạo lịch tr&igrave;nh sẽ &dstrok;ược bổ sung sau" type="button">
+     Tạo lịch tr&igrave;nh
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+       <path d="M4 12h16M13 5l7 7-7 7">
+       </path>
+      </svg>
+     </span>
+    </button>
+   </div>
+  </aside>
+  <main>
+   <div class="bread page-shell">
+    <a href="index.html">
+     Kh&aacute;m ph&aacute;
+    </a>
+    <span>
+     /
+    </span>
+    <a href="index.html#diem-den">
+     Nhật Bản
+    </a>
+    <span>
+     /
+    </span>
+    <strong>
+     Kyoto
+    </strong>
+   </div>
+   <section class="place-hero page-shell v3-place-hero">
+    <div class="place-photo">
+     <img alt="Kyoto - &dstrok;iểm &dstrok;ến du lịch" fetchpriority="high" loading="eager" src="assets/kyoto.jpg"/>
+     <div class="place-darkener">
+     </div>
+     <div class="place-hero-content">
+      <span class="eyebrow hero-eyebrow">
+       NHẬT BẢN
+       <span class="eyebrow-line">
+       </span>
+       CỐ &Dstrok;&Ocirc; V&Agrave; V&Abreve;N H&Oacute;A
+      </span>
+      <h1>
+       Kyoto
+       <span class="hero-small-period">
+        .
+       </span>
+      </h1>
+      <p>
+       Một thế giới của &dstrok;ền ch&ugrave;a, khu vườn, những con ng&otilde; nhỏ v&agrave; n&eacute;t tinh tế vượt thời gian.
+      </p>
+      <a class="watch-link" href="#tong-quan">
+       <span class="watch-icon">
+        &darr;
+       </span>
+       Kh&aacute;m ph&aacute; c&acirc;u chuyện
+      </a>
+     </div>
+     <span class="hero-side-note">
+      GLOBEA / STORIES OF PLACES
+     </span>
+     <span class="v3-place-label">
+      JAPAN / TIMELESS KYOTO
+     </span>
+    </div>
+    <span class="v3-place-edition">
+     THE ART OF STILLNESS
+     <b>
+      &mdash;
+     </b>
+     002
+    </span>
+   </section>
+   <div class="place-facts page-shell">
+    <div>
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24">
+       <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z">
+       </path>
+       <circle cx="12" cy="10" r="2.5">
+       </circle>
+      </svg>
+     </span>
+     <span>
+      <small>
+       VỊ TR&Iacute;
+      </small>
+      <strong>
+       Kyoto, Nhật Bản
+      </strong>
+     </span>
+    </div>
+    <div>
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24">
+       <rect height="16" rx="2" width="18" x="3" y="5">
+       </rect>
+       <path d="M7 3v4M17 3v4M3 10h18">
+       </path>
+      </svg>
+     </span>
+     <span>
+      <small>
+       THỜI &Dstrok;IỂM GỢI &Yacute;
+      </small>
+      <strong>
+       M&ugrave;a xu&acirc;n v&agrave; m&ugrave;a thu
+      </strong>
+     </span>
+    </div>
+    <div>
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24">
+       <circle cx="12" cy="12" r="9">
+       </circle>
+       <path d="M12 7v5l4 2">
+       </path>
+      </svg>
+     </span>
+     <span>
+      <small>
+       THỜI GIAN KH&Aacute;M PH&Aacute;
+      </small>
+      <strong>
+       2&ndash;4 ng&agrave;y
+      </strong>
+     </span>
+    </div>
+    <div>
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24">
+       <path d="M20.8 4.7a5.7 5.7 0 0 0-8.1 0l-.7.7-.7-.7a5.7 5.7 0 0 0-8.1 8c1.9 2.2 8.8 8.9 8.8 8.9s6.9-6.7 8.8-8.9a5.7 5.7 0 0 0 0-8Z">
+       </path>
+      </svg>
+     </span>
+     <span>
+      <small>
+       PH&Ugrave; HỢP VỚI
+      </small>
+      <strong>
+       V&abreve;n h&oacute;a &middot; Kiến tr&uacute;c &middot; Tản bộ
+      </strong>
+     </span>
+    </div>
+   </div>
+   <nav aria-label="Nội dung &dstrok;iểm &dstrok;ến" class="place-subnav page-shell">
+    <a href="#tong-quan">
+     Tổng quan
+    </a>
+    <a href="#lich-su">
+     Lịch sử &amp; v&abreve;n h&oacute;a
+    </a>
+    <a href="#am-thuc">
+     Ẩm thực
+    </a>
+    <a href="#noi-bat">
+     Trải nghiệm
+    </a>
+    <a href="#luu-tru">
+     Lưu tr&uacute; &amp; mẹo hay
+    </a>
+   </nav>
+   <section class="overview-section page-shell" id="tong-quan">
+    <div class="overview-label">
+     <span class="eyebrow dark">
+      01 / INTRODUCTION
+     </span>
+     <h2>
+      Kh&ocirc;ng chỉ l&agrave;
+      <br/>
+      <em>
+       một &dstrok;iểm &dstrok;ến.
+      </em>
+     </h2>
+    </div>
+    <div class="overview-body">
+     <p class="lead-paragraph">
+      Kyoto từng l&agrave; kinh &dstrok;&ocirc; Nhật Bản qua nhiều thế kỷ v&agrave; vẫn g&igrave;n giữ nhiều lớp di sản v&abreve;n h&oacute;a &dstrok;ặc sắc. Những &dstrok;ền thờ, ng&ocirc;i ch&ugrave;a, tr&agrave; thất v&agrave; con phố truyền thống tạo n&ecirc;n một nhịp sống thanh lịch, nơi những chi tiết nhỏ c&utilde;ng &dstrok;&aacute;ng &dstrok;ể quan s&aacute;t.
+     </p>
+     <div class="overview-highlight">
+      <span class="short-line">
+      </span>
+      <p>
+       Giữa rừng tre, những lối &dstrok;i nhỏ v&agrave; sắc &dstrok;ỏ trầm của cổng torii, Kyoto c&oacute; một vẻ &dstrok;ẹp kh&ocirc;ng cần ph&ocirc; trương.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="story-section" id="lich-su">
+    <div class="page-shell story-grid">
+     <div class="story-photo">
+      <img alt="Kyoto v&abreve;n h&oacute;a v&agrave; kiến tr&uacute;c" loading="lazy" src="assets/japan.jpg"/>
+      <div class="story-image-count">
+       GLOBEA JOURNAL &middot; 002
+      </div>
+     </div>
+     <div class="story-copy">
+      <span class="eyebrow dark">
+       02 / STORIES &amp; HERITAGE
+      </span>
+      <h2>
+       Một ch&uacute;t
+       <br/>
+       <em>
+        lịch sử th&uacute; vị.
+       </em>
+      </h2>
+      <h3>
+       Nơi một ngh&igrave;n n&abreve;m lịch sử c&ugrave;ng hiện diện.
+      </h3>
+      <p>
+       Kyoto trở th&agrave;nh kinh &dstrok;&ocirc; Nhật Bản v&agrave;o n&abreve;m 794 v&agrave; giữ vị thế n&agrave;y trong hơn một thi&ecirc;n ni&ecirc;n kỷ. C&aacute;c quần thể &dstrok;ền ch&ugrave;a v&agrave; khu vườn truyền thống g&oacute;p phần tạo n&ecirc;n bản sắc di sản của cố &dstrok;&ocirc;.
+      </p>
+      <div class="history-marker">
+       <strong>
+        794
+       </strong>
+       <span>
+        N&abreve;m Kyoto trở th&agrave;nh kinh &dstrok;&ocirc; của Nhật Bản.
+       </span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="recommend-section page-shell" id="am-thuc">
+    <div class="section-head stretch">
+     <div>
+      <span class="eyebrow dark">
+       03 / LOCAL FLAVOURS
+      </span>
+      <h2>
+       Hương vị
+       <em>
+        của nơi n&agrave;y.
+       </em>
+      </h2>
+     </div>
+     <p>
+      M&oacute;n ngon kh&ocirc;ng chỉ &dstrok;ể thưởng thức, m&agrave; c&ograve;n l&agrave; một c&aacute;ch &dstrok;ể hiểu cuộc sống &dstrok;ịa phương.
+     </p>
+    </div>
+    <div class="recommend-grid">
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Ẩm thực kaiseki" loading="lazy" src="assets/food.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        ẨM THỰC &Dstrok;ỊA PHƯƠNG
+       </span>
+       <h3>
+        Ẩm thực kaiseki
+       </h3>
+       <p>
+        Một h&agrave;nh tr&igrave;nh vị gi&aacute;c tinh tế theo m&ugrave;a.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="M&igrave; soba" loading="lazy" src="assets/cuisine.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        ẨM THỰC &Dstrok;ỊA PHƯƠNG
+       </span>
+       <h3>
+        M&igrave; soba
+       </h3>
+       <p>
+        M&oacute;n m&igrave; giản dị, dễ t&igrave;m ở c&aacute;c khu phố.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Matcha &amp; wagashi" loading="lazy" src="assets/coffee.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        ẨM THỰC &Dstrok;ỊA PHƯƠNG
+       </span>
+       <h3>
+        Matcha &amp; wagashi
+       </h3>
+       <p>
+        Tr&agrave; xanh v&agrave; b&aacute;nh ngọt truyền thống.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="discover-section page-shell" id="noi-bat">
+    <div class="section-head stretch">
+     <div>
+      <span class="eyebrow dark">
+       04 / HANDPICKED EXPERIENCES
+      </span>
+      <h2>
+       &Dstrok;&aacute;ng &dstrok;ể
+       <em>
+        dừng ch&acirc;n.
+       </em>
+      </h2>
+     </div>
+     <p>
+      Những g&oacute;c nhỏ, &dstrok;ịa danh v&agrave; trải nghiệm &dstrok;ể h&agrave;nh tr&igrave;nh của bạn c&oacute; th&ecirc;m nhiều c&acirc;u chuyện.
+     </p>
+    </div>
+    <div class="recommend-grid">
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Fushimi Inari" loading="lazy" src="assets/kyoto.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        GỢI &Yacute; TRẢI NGHIỆM
+       </span>
+       <h3>
+        Fushimi Inari
+       </h3>
+       <p>
+        Nổi bật với h&agrave;ng ngh&igrave;n cổng torii &dstrok;ỏ.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Arashiyama" loading="lazy" src="assets/nature.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        GỢI &Yacute; TRẢI NGHIỆM
+       </span>
+       <h3>
+        Arashiyama
+       </h3>
+       <p>
+        Tản bộ giữa rừng tre v&agrave; cảnh quan ven n&uacute;i.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Gion" loading="lazy" src="assets/japan.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        GỢI &Yacute; TRẢI NGHIỆM
+       </span>
+       <h3>
+        Gion
+       </h3>
+       <p>
+        Kh&aacute;m ph&aacute; kiến tr&uacute;c phố truyền thống.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="practical-section" id="luu-tru">
+    <div class="page-shell practical-grid">
+     <div class="practical-column">
+      <span class="eyebrow dark">
+       05 / REST WELL
+      </span>
+      <h2>
+       Ở &dstrok;&acirc;u &dstrok;ể
+       <br/>
+       <em>
+        thấy gần hơn?
+       </em>
+      </h2>
+      <p class="practical-intro">
+       T&ugrave;y v&agrave;o nhịp &dstrok;ộ v&agrave; ng&acirc;n s&aacute;ch, h&atilde;y chọn một kh&ocirc;ng gian ph&ugrave; hợp với trải nghiệm bạn mong muốn.
+      </p>
+      <div class="stay-list">
+       <div class="stay-suggestion">
+        <img alt="Ryokan truyền thống" loading="lazy" src="assets/hotel.jpg"/>
+        <div>
+         <strong>
+          Ryokan truyền thống
+         </strong>
+         <p>
+          Kh&ocirc;ng gian lưu tr&uacute; &dstrok;ậm dấu ấn Nhật Bản.
+         </p>
+        </div>
+       </div>
+       <div class="stay-suggestion">
+        <img alt="Kh&aacute;ch sạn trung t&acirc;m" loading="lazy" src="assets/hotel.jpg"/>
+        <div>
+         <strong>
+          Kh&aacute;ch sạn trung t&acirc;m
+         </strong>
+         <p>
+          Thuận tiện cho việc &dstrok;i bộ v&agrave; di chuyển t&agrave;u.
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="practical-column tips-column" id="meo-hay">
+      <span class="eyebrow dark">
+       06 / LITTLE THINGS TO KNOW
+      </span>
+      <h2>
+       Một v&agrave;i &dstrok;iều
+       <br/>
+       <em>
+        n&ecirc;n biết trước.
+       </em>
+      </h2>
+      <p class="practical-intro">
+       Những gợi &yacute; ngắn gọn gi&uacute;p chuyến &dstrok;i thoải m&aacute;i v&agrave; c&oacute; tr&aacute;ch nhiệm hơn.
+      </p>
+      <div class="tips-list">
+       <div class="tip-item">
+        <span class="tip-dot">
+         ✦
+        </span>
+        <div>
+         <strong>
+          T&ocirc;n trọng khu d&acirc;n cư
+         </strong>
+         <p>
+          Quan s&aacute;t biển b&aacute;o hạn chế chụp ảnh v&agrave; lối &dstrok;i ri&ecirc;ng.
+         </p>
+        </div>
+       </div>
+       <div class="tip-item">
+        <span class="tip-dot">
+         ✦
+        </span>
+        <div>
+         <strong>
+          Di chuyển bằng t&agrave;u v&agrave; xe bu&yacute;t
+         </strong>
+         <p>
+          Kiểm tra tuyến, thời gian thực tế trước khi khởi h&agrave;nh.
+         </p>
+        </div>
+       </div>
+       <div class="tip-item">
+        <span class="tip-dot">
+         ✦
+        </span>
+        <div>
+         <strong>
+          &Dstrok;iểm nổi tiếng c&oacute; thể &dstrok;&ocirc;ng
+         </strong>
+         <p>
+          N&ecirc;n &dstrok;ến sớm v&agrave; d&agrave;nh thời gian cho c&aacute;c con phố &iacute;t người.
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="end-quote page-shell">
+    <span class="eyebrow dark">
+     TAKE THE LONG WAY HOME
+    </span>
+    <blockquote>
+     &ldquo;Kyoto dạy ta rằng &dstrok;&ocirc;i khi, vẻ &dstrok;ẹp lớn nhất nằm ở những khoảng lặng rất nhỏ.&rdquo;
+    </blockquote>
+    <div>
+     <span>
+      GLOBEA TRAVEL NOTES
+     </span>
+     <label class="solid-button" for="planner-toggle" tabindex="0">
+      L&ecirc;n lịch tr&igrave;nh &dstrok;ến Kyoto
+      <span aria-hidden="true" class="ico">
+       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+        <path d="M4 12h16M13 5l7 7-7 7">
+        </path>
+       </svg>
+      </span>
+     </label>
+    </div>
+   </section>
+   <section class="next-destinations page-shell">
+    <div>
+     <span class="eyebrow dark">
+      THE JOURNEY CONTINUES
+     </span>
+     <h2>
+      Tiếp tục
+      <em>
+       kh&aacute;m ph&aacute;.
+      </em>
+     </h2>
+    </div>
+    <div class="next-links">
+     <a href="hoi-an.html">
+      Hội An
+      <span>
+       &nearrow;
+      </span>
+     </a>
+     <a href="kyoto.html">
+      Kyoto
+      <span>
+       &nearrow;
+      </span>
+     </a>
+     <a href="amalfi.html">
+      Amalfi Coast
+      <span>
+       &nearrow;
+      </span>
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="site-footer" id="ve-globea">
+   <div class="footer-inner">
+    <div>
+     <a class="footer-brand" href="index.html">
+      GLOBEA
+      <span>
+       .
+      </span>
+     </a>
+     <p>
+      Kh&aacute;m ph&aacute; s&acirc;u hơn. Trải nghiệm nhiều hơn.
+      <br/>
+      &Dstrok;i khắp thế giới, theo c&aacute;ch của ri&ecirc;ng bạn.
+     </p>
+    </div>
+    <div class="footer-links">
+     <div>
+      <strong>
+       Kh&aacute;m ph&aacute;
+      </strong>
+      <a href="hoi-an.html">
+       Hội An
+      </a>
+      <a href="kyoto.html">
+       Kyoto
+      </a>
+      <a href="amalfi.html">
+       Amalfi
+      </a>
+     </div>
+     <div>
+      <strong>
+       Th&ocirc;ng tin
+      </strong>
+      <a href="index.html#cau-chuyen">
+       Cảm hứng du lịch
+      </a>
+      <a href="index.html#about">
+       Về dự &aacute;n
+      </a>
+      <a href="hoi-an.html#meo-hay">
+       Cẩm nang
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="footer-bottom">
+    <span>
+     &copy; 2026 GLOBEA &middot; Travel thoughtfully.
+    </span>
+    <span>
+     Giao diện concept &middot; HTML &amp; CSS
+    </span>
+   </div>
+  </footer>
+ </body>
+</html>

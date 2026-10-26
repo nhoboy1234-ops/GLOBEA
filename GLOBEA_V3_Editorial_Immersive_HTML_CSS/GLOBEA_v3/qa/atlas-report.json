@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-26T13:18:04.608Z",
+  "checks": [
+    {
+      "name": "Atlas is directly after the homepage hero",
+      "pass": true
+    },
+    {
+      "name": "Ten selectable locations including both archipelagos",
+      "pass": true
+    },
+    {
+      "name": "Detailed offline coastline data",
+      "pass": true
+    },
+    {
+      "name": "Hover opens contextual photograph and tooltip",
+      "pass": true
+    },
+    {
+      "name": "Click locks destination and opens correct details link",
+      "pass": true
+    },
+    {
+      "name": "Map selection connects to planner",
+      "pass": true
+    },
+    {
+      "name": "Zoom buttons change the camera",
+      "pass": true
+    },
+    {
+      "name": "Pointer drag pans the actual geography",
+      "pass": true
+    },
+    {
+      "name": "Ctrl-wheel zoom is anchored to map",
+      "pass": true
+    },
+    {
+      "name": "Keyboard zoom works",
+      "pass": true
+    },
+    {
+      "name": "Keyboard resets full country view",
+      "pass": true,
+      "detail": {
+        "x": -0.6027638521475887,
+        "y": -0.6509849602878868,
+        "k": 1.001206041212732
+      }
+    },
+    {
+      "name": "hoang-sa opens an authentic local image",
+      "pass": true
+    },
+    {
+      "name": "truong-sa opens an authentic local image",
+      "pass": true
+    },
+    {
+      "name": "phu-quoc opens an authentic local image",
+      "pass": true
+    },
+    {
+      "name": "Island profile offers sources, not an unavailable planner",
+      "pass": true
+    },
+    {
+      "name": "Island photograph opens full-screen",
+      "pass": true
+    },
+    {
+      "name": "Island photograph closes with Escape",
+      "pass": true
+    },
+    {
+      "name": "Decorative motion can be paused",
+      "pass": true
+    },
+    {
+      "name": "Presentation advances through real locations",
+      "pass": true
+    },
+    {
+      "name": "Presentation stops on demand",
+      "pass": true
+    },
+    {
+      "name": "Atlas 1920px has no page overflow",
+      "pass": true,
+      "detail": {
+        "client": 1905,
+        "scroll": 1905
+      }
+    },
+    {
+      "name": "Atlas 768px has no page overflow",
+      "pass": true,
+      "detail": {
+        "client": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "Atlas 390px has no page overflow",
+      "pass": true,
+      "detail": {
+        "client": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "Touch pan is explicitly enabled",
+      "pass": true
+    },
+    {
+      "name": "Two-finger pinch zooms the map",
+      "pass": true
+    },
+    {
+      "name": "Touch can return to page scrolling",
+      "pass": true
+    },
+    {
+      "name": "Mobile map tap opens an immediate photo card",
+      "pass": true
+    },
+    {
+      "name": "Mobile floating card opens the large photograph",
+      "pass": true
+    },
+    {
+      "name": "Atlas 320px has no page overflow",
+      "pass": true,
+      "detail": {
+        "client": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "Reduced motion stops holographic loops",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion keeps point selection functional",
+      "pass": true
+    },
+    {
+      "name": "No atlas JavaScript exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

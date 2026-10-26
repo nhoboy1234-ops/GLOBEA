@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="vi">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="#faf9f6" name="theme-color"/>
+  <meta content="Những ng&ocirc;i l&agrave;ng vươn m&igrave;nh tr&ecirc;n v&aacute;ch &dstrok;&aacute;, biển xanh lấp l&aacute;nh v&agrave; nghệ thuật sống &dstrok;ầy nắng." name="description"/>
+  <title>
+   Amalfi Coast &middot; &Dstrok;iểm &dstrok;ến &mdash; GLOBEA
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&amp;family=Playfair+Display:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body class="theme-amalfi v3-detail v3-amalfi">
+  <header class="site-header">
+   <div class="nav-inner">
+    <a aria-label="GLOBEA - về trang chủ" class="brand" href="index.html">
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24">
+       <circle cx="12" cy="12" r="9">
+       </circle>
+       <path d="M3 12h18M12 3a16 16 0 0 1 0 18M12 3a16 16 0 0 0 0 18">
+       </path>
+      </svg>
+     </span>
+     <span>
+      GLOBEA
+      <span class="brand-dot">
+       .
+      </span>
+     </span>
+    </a>
+    <nav aria-label="&Dstrok;iều hướng ch&iacute;nh" class="desktop-nav">
+     <a href="index.html">
+      Kh&aacute;m ph&aacute;
+     </a>
+     <a href="index.html#diem-den">
+      &Dstrok;iểm &dstrok;ến
+     </a>
+     <a href="index.html#cau-chuyen">
+      Cảm hứng
+     </a>
+     <a href="index.html#about">
+      Về GLOBEA
+     </a>
+    </nav>
+    <div class="nav-actions">
+     <a aria-label="Ng&ocirc;n ngữ Tiếng Việt" class="language" href="#">
+      VI
+      <span class="tiny-chevron">
+       ⌄
+      </span>
+     </a>
+     <a class="nav-cta" href="#noi-bat">
+      Xem trải nghiệm
+      <span aria-hidden="true" class="ico">
+       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+        <path d="M4 12h16M13 5l7 7-7 7">
+        </path>
+       </svg>
+      </span>
+     </a>
+    </div>
+   </div>
+  </header>
+  <input aria-label="Mở bảng l&ecirc;n lịch tr&igrave;nh" class="planner-toggle" id="planner-toggle" type="checkbox"/>
+  <label aria-label="&Dstrok;&oacute;ng bảng lập lịch tr&igrave;nh" class="planner-backdrop" for="planner-toggle">
+  </label>
+  <label class="planner-peek" for="planner-toggle" title="Mở c&ocirc;ng cụ lập lịch tr&igrave;nh">
+   <span class="peek-arrow">
+    &lsaquo;
+   </span>
+   <span class="peek-label">
+    L&Ecirc;N LỊCH TR&Igrave;NH
+   </span>
+  </label>
+  <aside aria-label="Bảng c&ocirc;ng cụ l&ecirc;n lịch tr&igrave;nh" class="planner-drawer">
+   <div class="drawer-head">
+    <div>
+     <span class="eyebrow muted">
+      YOUR JOURNEY, YOUR WAY
+     </span>
+     <h2>
+      Thiết kế chuyến &dstrok;i
+      <span class="accent-period">
+       .
+      </span>
+     </h2>
+    </div>
+    <label class="drawer-close" for="planner-toggle" title="&Dstrok;&oacute;ng bảng">
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" viewbox="0 0 24 24">
+       <path d="M5 5l14 14M19 5 5 19">
+       </path>
+      </svg>
+     </span>
+    </label>
+   </div>
+   <div class="drawer-body">
+    <p class="drawer-intro">
+     Chọn &dstrok;iều bạn y&ecirc;u th&iacute;ch. GLOBEA sẽ gi&uacute;p bạn h&igrave;nh dung h&agrave;nh tr&igrave;nh ph&ugrave; hợp nhất.
+    </p>
+    <div class="drawer-block">
+     <label class="form-label" for="destination">
+      01 / Bạn muốn &dstrok;i &dstrok;&acirc;u?
+     </label>
+     <input id="destination" placeholder="Quốc gia hoặc th&agrave;nh phố" type="text" value="Amalfi Coast, &Yacute;"/>
+    </div>
+    <div class="two-fields">
+     <div class="drawer-block">
+      <label class="form-label" for="days">
+       02 / Số ng&agrave;y
+      </label>
+      <select id="days">
+       <option>
+        2 ng&agrave;y 1 &dstrok;&ecirc;m
+       </option>
+       <option selected="">
+        3 ng&agrave;y 2 &dstrok;&ecirc;m
+       </option>
+       <option>
+        4 ng&agrave;y 3 &dstrok;&ecirc;m
+       </option>
+       <option>
+        5 ng&agrave;y 4 &dstrok;&ecirc;m
+       </option>
+       <option>
+        7 ng&agrave;y 6 &dstrok;&ecirc;m
+       </option>
+       <option>
+        10 ng&agrave;y
+       </option>
+      </select>
+     </div>
+     <div class="drawer-block">
+      <label class="form-label" for="people">
+       03 / Số người
+      </label>
+      <select id="people">
+       <option>
+        1 người
+       </option>
+       <option selected="">
+        2 người
+       </option>
+       <option>
+        3 người
+       </option>
+       <option>
+        4 người
+       </option>
+       <option>
+        Nh&oacute;m 5+ người
+       </option>
+      </select>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      04 / Sở th&iacute;ch của bạn
+      <small>
+       (chọn nhiều)
+      </small>
+     </span>
+     <div class="choice-grid">
+      <label class="choice">
+       <input checked="" type="checkbox"/>
+       <span>
+        🏛️ V&abreve;n h&oacute;a
+       </span>
+      </label>
+      <label class="choice">
+       <input checked="" type="checkbox"/>
+       <span>
+        🍜 Ẩm thực
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        📷 Check-in
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        🌿 Thi&ecirc;n nhi&ecirc;n
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        ☕ Thư gi&atilde;n
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        🥾 Phi&ecirc;u lưu
+       </span>
+      </label>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      04A / M&oacute;n &abreve;n bạn muốn thử
+      <small>
+       (chọn nhiều)
+      </small>
+     </span>
+     <div class="choice-grid">
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Pasta hải sản
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Delizia al limone
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        C&agrave; ph&ecirc; ven biển
+       </span>
+      </label>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      04B / &Dstrok;iểm nhất &dstrok;ịnh muốn gh&eacute;
+      <small>
+       (chọn nhiều)
+      </small>
+     </span>
+     <div class="choice-grid">
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Positano
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        Ravello
+       </span>
+      </label>
+      <label class="choice">
+       <input type="checkbox"/>
+       <span>
+        B&atilde;i biển nhỏ
+       </span>
+      </label>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      05 / Ng&acirc;n s&aacute;ch dự kiến
+      <small>
+       (mỗi người)
+      </small>
+     </span>
+     <div class="choice-row">
+      <label class="choice">
+       <input name="budget" type="radio"/>
+       <span>
+        Tiết kiệm
+       </span>
+      </label>
+      <label class="choice">
+       <input checked="" name="budget" type="radio"/>
+       <span>
+        Vừa phải
+       </span>
+      </label>
+      <label class="choice">
+       <input name="budget" type="radio"/>
+       <span>
+        Thoải m&aacute;i
+       </span>
+      </label>
+     </div>
+     <div class="two-fields minor">
+      <div>
+       <label class="micro-label" for="budget-min">
+        Từ (VN&Dstrok;)
+       </label>
+       <input id="budget-min" placeholder="2.000.000" type="text"/>
+      </div>
+      <div>
+       <label class="micro-label" for="budget-max">
+        &Dstrok;ến (VN&Dstrok;)
+       </label>
+       <input id="budget-max" placeholder="6.000.000" type="text"/>
+      </div>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <span class="form-label">
+      06 / Bạn muốn ở như thế n&agrave;o?
+     </span>
+     <div class="choice-row">
+      <label class="choice">
+       <input name="stay" type="radio"/>
+       <span>
+        Homestay
+       </span>
+      </label>
+      <label class="choice">
+       <input checked="" name="stay" type="radio"/>
+       <span>
+        Kh&aacute;ch sạn
+       </span>
+      </label>
+      <label class="choice">
+       <input name="stay" type="radio"/>
+       <span>
+        Resort
+       </span>
+      </label>
+     </div>
+    </div>
+    <div class="two-fields">
+     <div class="drawer-block">
+      <label class="form-label" for="travel-style">
+       07 / Nhịp &dstrok;ộ
+      </label>
+      <select id="travel-style">
+       <option>
+        Thư thả
+       </option>
+       <option selected="">
+        C&acirc;n bằng
+       </option>
+       <option>
+        Kh&aacute;m ph&aacute; nhiều
+       </option>
+      </select>
+     </div>
+     <div class="drawer-block">
+      <label class="form-label" for="transport">
+       08 / Di chuyển
+      </label>
+      <select id="transport">
+       <option>
+        &Dstrok;i bộ + taxi
+       </option>
+       <option>
+        Xe m&aacute;y
+       </option>
+       <option>
+        Thu&ecirc; &ocirc; t&ocirc;
+       </option>
+       <option selected="">
+        &Dstrok;ề xuất ph&ugrave; hợp
+       </option>
+      </select>
+     </div>
+    </div>
+    <div class="drawer-block">
+     <label class="form-label" for="notes">
+      09 / Y&ecirc;u cầu th&ecirc;m
+     </label>
+     <textarea id="notes" placeholder="V&iacute; dụ: ưu ti&ecirc;n m&oacute;n &dstrok;ịa phương, kh&ocirc;ng &dstrok;i qu&aacute; sớm, c&oacute; trẻ nhỏ..." rows="3"></textarea>
+    </div>
+    <div class="drawer-note">
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24">
+       <path d="M12 2l2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5L12 2Z">
+       </path>
+      </svg>
+     </span>
+     <span>
+      &Dstrok;&acirc;y l&agrave; bản thiết kế giao diện. C&aacute;c &ocirc; c&oacute; thể chọn v&agrave; chỉnh sửa; t&iacute;nh n&abreve;ng tự tạo lịch tr&igrave;nh sẽ &dstrok;ược bổ sung ở giai &dstrok;oạn lập tr&igrave;nh.
+     </span>
+    </div>
+   </div>
+   <div class="drawer-foot">
+    <div class="drawer-total">
+     <span>
+      &Dstrok;&atilde; chọn &dstrok;iểm &dstrok;ến
+     </span>
+     <strong>
+      Amalfi Coast, &Yacute;
+     </strong>
+    </div>
+    <button class="solid-button preview-button" disabled="" title="T&iacute;nh n&abreve;ng tạo lịch tr&igrave;nh sẽ &dstrok;ược bổ sung sau" type="button">
+     Tạo lịch tr&igrave;nh
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+       <path d="M4 12h16M13 5l7 7-7 7">
+       </path>
+      </svg>
+     </span>
+    </button>
+   </div>
+  </aside>
+  <main>
+   <div class="bread page-shell">
+    <a href="index.html">
+     Kh&aacute;m ph&aacute;
+    </a>
+    <span>
+     /
+    </span>
+    <a href="index.html#diem-den">
+     &Yacute;
+    </a>
+    <span>
+     /
+    </span>
+    <strong>
+     Amalfi Coast
+    </strong>
+   </div>
+   <section class="place-hero page-shell v3-place-hero">
+    <div class="place-photo">
+     <img alt="Amalfi Coast - &dstrok;iểm &dstrok;ến du lịch" fetchpriority="high" loading="eager" src="assets/amalfi.jpg"/>
+     <div class="place-darkener">
+     </div>
+     <div class="place-hero-content">
+      <span class="eyebrow hero-eyebrow">
+       NƯỚC &Yacute;
+       <span class="eyebrow-line">
+       </span>
+       &Dstrok;ỊA TRUNG HẢI
+      </span>
+      <h1>
+       Amalfi Coast
+       <span class="hero-small-period">
+        .
+       </span>
+      </h1>
+      <p>
+       Những ng&ocirc;i l&agrave;ng vươn m&igrave;nh tr&ecirc;n v&aacute;ch &dstrok;&aacute;, biển xanh lấp l&aacute;nh v&agrave; nghệ thuật sống &dstrok;ầy nắng.
+      </p>
+      <a class="watch-link" href="#tong-quan">
+       <span class="watch-icon">
+        &darr;
+       </span>
+       Kh&aacute;m ph&aacute; c&acirc;u chuyện
+      </a>
+     </div>
+     <span class="hero-side-note">
+      GLOBEA / STORIES OF PLACES
+     </span>
+     <span class="v3-place-label">
+      ITALIA / COASTAL STORIES
+     </span>
+    </div>
+    <span class="v3-place-edition">
+     THE MEDITERRANEAN JOURNAL
+     <b>
+      &mdash;
+     </b>
+     003
+    </span>
+   </section>
+   <div class="place-facts page-shell">
+    <div>
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24">
+       <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z">
+       </path>
+       <circle cx="12" cy="10" r="2.5">
+       </circle>
+      </svg>
+     </span>
+     <span>
+      <small>
+       VỊ TR&Iacute;
+      </small>
+      <strong>
+       Campania, &Yacute;
+      </strong>
+     </span>
+    </div>
+    <div>
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24">
+       <rect height="16" rx="2" width="18" x="3" y="5">
+       </rect>
+       <path d="M7 3v4M17 3v4M3 10h18">
+       </path>
+      </svg>
+     </span>
+     <span>
+      <small>
+       THỜI &Dstrok;IỂM GỢI &Yacute;
+      </small>
+      <strong>
+       Cuối xu&acirc;n &ndash; &dstrok;ầu thu
+      </strong>
+     </span>
+    </div>
+    <div>
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24">
+       <circle cx="12" cy="12" r="9">
+       </circle>
+       <path d="M12 7v5l4 2">
+       </path>
+      </svg>
+     </span>
+     <span>
+      <small>
+       THỜI GIAN KH&Aacute;M PH&Aacute;
+      </small>
+      <strong>
+       3&ndash;5 ng&agrave;y
+      </strong>
+     </span>
+    </div>
+    <div>
+     <span aria-hidden="true" class="ico">
+      <svg fill="none" stroke="currentColor" stroke-width="1.7" viewbox="0 0 24 24">
+       <path d="M20.8 4.7a5.7 5.7 0 0 0-8.1 0l-.7.7-.7-.7a5.7 5.7 0 0 0-8.1 8c1.9 2.2 8.8 8.9 8.8 8.9s6.9-6.7 8.8-8.9a5.7 5.7 0 0 0 0-8Z">
+       </path>
+      </svg>
+     </span>
+     <span>
+      <small>
+       PH&Ugrave; HỢP VỚI
+      </small>
+      <strong>
+       Biển &middot; Ẩm thực &middot; Nghỉ dưỡng
+      </strong>
+     </span>
+    </div>
+   </div>
+   <nav aria-label="Nội dung &dstrok;iểm &dstrok;ến" class="place-subnav page-shell">
+    <a href="#tong-quan">
+     Tổng quan
+    </a>
+    <a href="#lich-su">
+     Lịch sử &amp; v&abreve;n h&oacute;a
+    </a>
+    <a href="#am-thuc">
+     Ẩm thực
+    </a>
+    <a href="#noi-bat">
+     Trải nghiệm
+    </a>
+    <a href="#luu-tru">
+     Lưu tr&uacute; &amp; mẹo hay
+    </a>
+   </nav>
+   <section class="overview-section page-shell" id="tong-quan">
+    <div class="overview-label">
+     <span class="eyebrow dark">
+      01 / INTRODUCTION
+     </span>
+     <h2>
+      Kh&ocirc;ng chỉ l&agrave;
+      <br/>
+      <em>
+       một &dstrok;iểm &dstrok;ến.
+      </em>
+     </h2>
+    </div>
+    <div class="overview-body">
+     <p class="lead-paragraph">
+      Bờ biển Amalfi trải d&agrave;i qua những thị trấn nằm giữa n&uacute;i v&agrave; biển ở miền nam nước &Yacute;. C&aacute;c ng&ocirc;i nh&agrave; nhiều sắc m&agrave;u, vườn chanh, lối bậc thang v&agrave; con &dstrok;ường ven v&aacute;ch &dstrok;&aacute; tạo ra một khung cảnh vừa kịch t&iacute;nh vừa thư thả.
+     </p>
+     <div class="overview-highlight">
+      <span class="short-line">
+      </span>
+      <p>
+       Một ly espresso, m&ugrave;i chanh thoảng qua v&agrave; con &dstrok;ường nhỏ nh&igrave;n ra biển &mdash; &dstrok;&oacute; l&agrave; vẻ &dstrok;ẹp của những &dstrok;iều giản dị.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="story-section" id="lich-su">
+    <div class="page-shell story-grid">
+     <div class="story-photo">
+      <img alt="Amalfi Coast v&abreve;n h&oacute;a v&agrave; kiến tr&uacute;c" loading="lazy" src="assets/italy.jpg"/>
+      <div class="story-image-count">
+       GLOBEA JOURNAL &middot; 002
+      </div>
+     </div>
+     <div class="story-copy">
+      <span class="eyebrow dark">
+       02 / STORIES &amp; HERITAGE
+      </span>
+      <h2>
+       Một ch&uacute;t
+       <br/>
+       <em>
+        lịch sử th&uacute; vị.
+       </em>
+      </h2>
+      <h3>
+       Một dải bờ biển với lịch sử thương mại l&acirc;u &dstrok;ời.
+      </h3>
+      <p>
+       Amalfi từng l&agrave; một nước cộng h&ograve;a h&agrave;ng hải c&oacute; ảnh hưởng ở &Dstrok;ịa Trung Hải thời Trung Cổ. Cảnh quan v&abreve;n h&oacute;a của bờ biển Amalfi &dstrok;ược UNESCO ghi danh Di sản Thế giới v&agrave;o n&abreve;m 1997.
+      </p>
+      <div class="history-marker">
+       <strong>
+        1997
+       </strong>
+       <span>
+        N&abreve;m cảnh quan v&abreve;n h&oacute;a bờ biển Amalfi &dstrok;ược UNESCO ghi danh.
+       </span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="recommend-section page-shell" id="am-thuc">
+    <div class="section-head stretch">
+     <div>
+      <span class="eyebrow dark">
+       03 / LOCAL FLAVOURS
+      </span>
+      <h2>
+       Hương vị
+       <em>
+        của nơi n&agrave;y.
+       </em>
+      </h2>
+     </div>
+     <p>
+      M&oacute;n ngon kh&ocirc;ng chỉ &dstrok;ể thưởng thức, m&agrave; c&ograve;n l&agrave; một c&aacute;ch &dstrok;ể hiểu cuộc sống &dstrok;ịa phương.
+     </p>
+    </div>
+    <div class="recommend-grid">
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Pasta hải sản" loading="lazy" src="assets/cuisine.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        ẨM THỰC &Dstrok;ỊA PHƯƠNG
+       </span>
+       <h3>
+        Pasta hải sản
+       </h3>
+       <p>
+        Hương vị biển trong những bữa &abreve;n ven bờ.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Delizia al limone" loading="lazy" src="assets/food.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        ẨM THỰC &Dstrok;ỊA PHƯƠNG
+       </span>
+       <h3>
+        Delizia al limone
+       </h3>
+       <p>
+        M&oacute;n tr&aacute;ng miệng nổi bật với hương chanh.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="C&agrave; ph&ecirc; ven biển" loading="lazy" src="assets/coffee.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        ẨM THỰC &Dstrok;ỊA PHƯƠNG
+       </span>
+       <h3>
+        C&agrave; ph&ecirc; ven biển
+       </h3>
+       <p>
+        D&agrave;nh ch&uacute;t thời gian nh&igrave;n thuyền qua vịnh.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="discover-section page-shell" id="noi-bat">
+    <div class="section-head stretch">
+     <div>
+      <span class="eyebrow dark">
+       04 / HANDPICKED EXPERIENCES
+      </span>
+      <h2>
+       &Dstrok;&aacute;ng &dstrok;ể
+       <em>
+        dừng ch&acirc;n.
+       </em>
+      </h2>
+     </div>
+     <p>
+      Những g&oacute;c nhỏ, &dstrok;ịa danh v&agrave; trải nghiệm &dstrok;ể h&agrave;nh tr&igrave;nh của bạn c&oacute; th&ecirc;m nhiều c&acirc;u chuyện.
+     </p>
+    </div>
+    <div class="recommend-grid">
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Positano" loading="lazy" src="assets/italy.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        GỢI &Yacute; TRẢI NGHIỆM
+       </span>
+       <h3>
+        Positano
+       </h3>
+       <p>
+        Thị trấn nhiều sắc m&agrave;u tr&ecirc;n sườn n&uacute;i.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="Ravello" loading="lazy" src="assets/nature.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        GỢI &Yacute; TRẢI NGHIỆM
+       </span>
+       <h3>
+        Ravello
+       </h3>
+       <p>
+        Vườn v&agrave; những g&oacute;c nh&igrave;n bao qu&aacute;t bờ biển.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+     <article class="recommendation">
+      <div class="recommendation-image">
+       <img alt="B&atilde;i biển nhỏ" loading="lazy" src="assets/beach.jpg"/>
+      </div>
+      <div class="recommendation-copy">
+       <span class="rec-tag">
+        GỢI &Yacute; TRẢI NGHIỆM
+       </span>
+       <h3>
+        B&atilde;i biển nhỏ
+       </h3>
+       <p>
+        T&igrave;m g&oacute;c tắm biển, nghỉ ngơi b&ecirc;n l&agrave;n nước xanh.
+       </p>
+       <span class="rec-link">
+        Kh&aacute;m ph&aacute;
+        <span>
+         &nearrow;
+        </span>
+       </span>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="practical-section" id="luu-tru">
+    <div class="page-shell practical-grid">
+     <div class="practical-column">
+      <span class="eyebrow dark">
+       05 / REST WELL
+      </span>
+      <h2>
+       Ở &dstrok;&acirc;u &dstrok;ể
+       <br/>
+       <em>
+        thấy gần hơn?
+       </em>
+      </h2>
+      <p class="practical-intro">
+       T&ugrave;y v&agrave;o nhịp &dstrok;ộ v&agrave; ng&acirc;n s&aacute;ch, h&atilde;y chọn một kh&ocirc;ng gian ph&ugrave; hợp với trải nghiệm bạn mong muốn.
+      </p>
+      <div class="stay-list">
+       <div class="stay-suggestion">
+        <img alt="Boutique hotel" loading="lazy" src="assets/hotel.jpg"/>
+        <div>
+         <strong>
+          Boutique hotel
+         </strong>
+         <p>
+          Kh&ocirc;ng gian ri&ecirc;ng tư, gần biển hoặc tr&ecirc;n sườn &dstrok;ồi.
+         </p>
+        </div>
+       </div>
+       <div class="stay-suggestion">
+        <img alt="Guesthouse bản &dstrok;ịa" loading="lazy" src="assets/hotel.jpg"/>
+        <div>
+         <strong>
+          Guesthouse bản &dstrok;ịa
+         </strong>
+         <p>
+          Lựa chọn th&acirc;n thiện &dstrok;ể cảm nhận &dstrok;ịa phương.
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="practical-column tips-column" id="meo-hay">
+      <span class="eyebrow dark">
+       06 / LITTLE THINGS TO KNOW
+      </span>
+      <h2>
+       Một v&agrave;i &dstrok;iều
+       <br/>
+       <em>
+        n&ecirc;n biết trước.
+       </em>
+      </h2>
+      <p class="practical-intro">
+       Những gợi &yacute; ngắn gọn gi&uacute;p chuyến &dstrok;i thoải m&aacute;i v&agrave; c&oacute; tr&aacute;ch nhiệm hơn.
+      </p>
+      <div class="tips-list">
+       <div class="tip-item">
+        <span class="tip-dot">
+         ✦
+        </span>
+        <div>
+         <strong>
+          &Dstrok;ường ven biển nhiều kh&uacute;c cua
+         </strong>
+         <p>
+          C&acirc;n nhắc phương tiện di chuyển v&agrave;o m&ugrave;a cao &dstrok;iểm.
+         </p>
+        </div>
+       </div>
+       <div class="tip-item">
+        <span class="tip-dot">
+         ✦
+        </span>
+        <div>
+         <strong>
+          &Dstrok;ặt ph&ograve;ng từ sớm
+         </strong>
+         <p>
+          C&aacute;c thị trấn ven biển &dstrok;ược ưa chuộng trong m&ugrave;a h&egrave;.
+         </p>
+        </div>
+       </div>
+       <div class="tip-item">
+        <span class="tip-dot">
+         ✦
+        </span>
+        <div>
+         <strong>
+          Mang gi&agrave;y thoải m&aacute;i
+         </strong>
+         <p>
+          Những &dstrok;oạn dốc v&agrave; bậc thang xuất hiện kh&aacute; nhiều.
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="end-quote page-shell">
+    <span class="eyebrow dark">
+     TAKE THE LONG WAY HOME
+    </span>
+    <blockquote>
+     &ldquo;Ở Amalfi, h&agrave;nh tr&igrave;nh &dstrok;&ocirc;i khi bắt &dstrok;ầu từ việc ngồi y&ecirc;n v&agrave; ngắm biển.&rdquo;
+    </blockquote>
+    <div>
+     <span>
+      GLOBEA TRAVEL NOTES
+     </span>
+     <label class="solid-button" for="planner-toggle" tabindex="0">
+      L&ecirc;n lịch tr&igrave;nh &dstrok;ến Amalfi Coast
+      <span aria-hidden="true" class="ico">
+       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+        <path d="M4 12h16M13 5l7 7-7 7">
+        </path>
+       </svg>
+      </span>
+     </label>
+    </div>
+   </section>
+   <section class="next-destinations page-shell">
+    <div>
+     <span class="eyebrow dark">
+      THE JOURNEY CONTINUES
+     </span>
+     <h2>
+      Tiếp tục
+      <em>
+       kh&aacute;m ph&aacute;.
+      </em>
+     </h2>
+    </div>
+    <div class="next-links">
+     <a href="hoi-an.html">
+      Hội An
+      <span>
+       &nearrow;
+      </span>
+     </a>
+     <a href="kyoto.html">
+      Kyoto
+      <span>
+       &nearrow;
+      </span>
+     </a>
+     <a href="amalfi.html">
+      Amalfi Coast
+      <span>
+       &nearrow;
+      </span>
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="site-footer" id="ve-globea">
+   <div class="footer-inner">
+    <div>
+     <a class="footer-brand" href="index.html">
+      GLOBEA
+      <span>
+       .
+      </span>
+     </a>
+     <p>
+      Kh&aacute;m ph&aacute; s&acirc;u hơn. Trải nghiệm nhiều hơn.
+      <br/>
+      &Dstrok;i khắp thế giới, theo c&aacute;ch của ri&ecirc;ng bạn.
+     </p>
+    </div>
+    <div class="footer-links">
+     <div>
+      <strong>
+       Kh&aacute;m ph&aacute;
+      </strong>
+      <a href="hoi-an.html">
+       Hội An
+      </a>
+      <a href="kyoto.html">
+       Kyoto
+      </a>
+      <a href="amalfi.html">
+       Amalfi
+      </a>
+     </div>
+     <div>
+      <strong>
+       Th&ocirc;ng tin
+      </strong>
+      <a href="index.html#cau-chuyen">
+       Cảm hứng du lịch
+      </a>
+      <a href="index.html#about">
+       Về dự &aacute;n
+      </a>
+      <a href="hoi-an.html#meo-hay">
+       Cẩm nang
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="footer-bottom">
+    <span>
+     &copy; 2026 GLOBEA &middot; Travel thoughtfully.
+    </span>
+    <span>
+     Giao diện concept &middot; HTML &amp; CSS
+    </span>
+   </div>
+  </footer>
+ </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "globea-vietnam-edition",
+  "version": "4.2.0",
+  "private": true,
+  "description": "Buildless Vietnam travel editorial and browser-local trip planner",
+  "scripts": { "start": "node server.cjs", "check": "node --check app.js && node --check data.js && node --check motion.js && node --check atlas.js && node --check atlas-geography.js" }
+}
